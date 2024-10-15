@@ -1,0 +1,3 @@
+SELECT AVG(summ)
+FROM bill
+WHERE b_year=2020 AND b_month BETWEEN 1 AND 6;
