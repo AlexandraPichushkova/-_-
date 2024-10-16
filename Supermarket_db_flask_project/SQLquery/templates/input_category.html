@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input_category</title>
+    <link href="{{url_for('static', filename='sem1.css')}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<center>
+    <h2>Ввод параметов</h2>
+    <p>
+        <form action="" method="post">           <!-- Форма, которая отправляет данные на сервер; при ошибке вернуть упр-ние тому методу? который ее создал -->
+         <label for="prod_category">категория</label>
+         <input type="text" id="prod_category" name="prod_category">   <!--for==id ; name-ключ словаря, кот-й верн-ся на сервер после ввода категории; 1 и тд- значение -->
+        <br><br>
+        <input type="submit" value="Отправить">     <!--value - надпись на кнопке -->
+        </form>
+    </p>
+</center>
+
+</body>
+</html>

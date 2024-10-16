@@ -1,0 +1,31 @@
+body {
+    background-color: #CE7F79; /* Добавляем фон страницы */
+}
+
+h2 {font-size    : 14pt;
+    color        : #480607}
+
+
+tr.tab_title  {font_size   :12pt;
+              font-weight  : bold;
+              color        : DA1232}
+
+tr   {font-size  :12pt;
+       color     :#800000}
+
+input[type="submit"] {
+    background-color: #800000; /* Новый цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a5260a; /* Цвет кнопки при наведении */
+}
+
+table {
+    background-color: #FFDAB9; /* Персиковый фон таблицы */
+}
+
